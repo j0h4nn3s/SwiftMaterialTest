@@ -13,6 +13,7 @@ struct ContentView: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 200, height: 200)
                 VisualEffectView(UIBlurEffect(style: .systemThinMaterial))
+                Text("Hello, world!")
             }
             .opacity(0.5)
             Spacer()
@@ -22,6 +23,7 @@ struct ContentView: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 200, height: 200)
                 VisualEffectView(UIBlurEffect(style: .systemThinMaterial))
+                Text("Hello, world!")
             }
             Spacer()
         }.background(Color.blue)
